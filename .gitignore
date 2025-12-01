@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# YOLO training logs (VERY heavy)
+runs/
+
+# Detection results (optional)
+results/
+
+# YOLO cache files
+*.cache
+
+
+
+# Python cache
+__pycache__/
+*.pyc
