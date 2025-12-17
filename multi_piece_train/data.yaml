@@ -1,0 +1,9 @@
+path: dataset_segdet
+train: images/train
+val: images/val
+names:
+  0: p_1
+  1: p_2
+  2: p_3
+  3: p_4
+  4: p_m
