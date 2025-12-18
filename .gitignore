@@ -1,1 +1,30 @@
-__pycache__
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments (optional but recommended)
+.venv/
+venv/
+env/
+
+# Test / typecheck caches
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+.github
+
+# Logs
+*.log

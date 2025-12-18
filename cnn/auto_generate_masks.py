@@ -108,7 +108,7 @@ def process_split(root, split, image_folder, overwrite):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-dir", default="data")
+    parser.add_argument("--data-dir", default="cnn_train_dataset")
     parser.add_argument("--image-folder", default="images")
     parser.add_argument("--splits", nargs="+", default=["train", "val"])
     parser.add_argument("--overwrite", action="store_true")

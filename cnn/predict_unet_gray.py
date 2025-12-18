@@ -95,13 +95,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type=str,
-        default="models/unet_puzzle_gray.pth",
+        default="models_cnn/unet_puzzle_gray.pth",
         help="Path to trained model weights",
     )
     parser.add_argument(
         "--input-dir",
         type=str,
-        default="data/val/images_bw",
+        default="cnn_train_dataset/val/images_bw",
         help="Folder with BW images to segment",
     )
     parser.add_argument(

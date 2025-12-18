@@ -89,8 +89,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data-dir", type=str, default="data")
-    parser.add_argument("--out-model", type=str, default="models/unet_puzzle_gray.pth")
+    parser.add_argument("--data-dir", type=str, default="cnn_train_dataset")
+    parser.add_argument("--out-model", type=str, default="models_cnn/unet_puzzle_gray.pth")
     parser.add_argument("--epochs", type=int, default=30)
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--lr", type=float, default=1e-3)

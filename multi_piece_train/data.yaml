@@ -1,4 +1,4 @@
-path: dataset_segdet
+path: multi_piece_train
 train: images/train
 val: images/val
 names:
