@@ -1,7 +1,7 @@
 from pathlib import Path
 from PIL import Image
 
-DATA_ROOT = Path("data")
+DATA_ROOT = Path("cnn_train_dataset")
 SPLITS = ["train", "val"]
 
 def main():
