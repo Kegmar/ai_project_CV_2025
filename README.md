@@ -172,7 +172,7 @@ pip install -r requirements.txt
 
 ### 2) CNN U-Net edge/mask pipeline (run from `cnn/`)
 
-> Many CNN utilities assume the current working directory is `cnn/`.  
+> CNN utilities assume the current working directory is `cnn/`.  
 > For additional details and troubleshooting, see **[README_CNN.md](README_CNN.md)**.
 
 ```bash
