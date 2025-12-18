@@ -63,7 +63,7 @@ python hailo_live_inference.py
 
 ![Live inference on Raspberry Pi (GIF)](assets/Yolo_gif.gif)
 
-![YOLO detector demo (GIF)](runs_yolo\detect\train\val_batch0_labels.jpg)
+![YOLO detector demo (GIF)](runs_yolo/detect/train/val_batch0_labels.jpg)
 
 ---
 
@@ -92,9 +92,9 @@ python hailo_live_inference.py
 
 **Demo media**
 
-![CNN U-Net (PNG)](cnn\predictions\72_edges.png)
+![CNN U-Net (PNG)](cnn/predictions/72_edges.png)
 
-![CNN U-Net (PNG)](cnn\predictions\71_overlay.png)
+![CNN U-Net (PNG)](cnn/predictions/71_overlay.png)
 
 ---
 
