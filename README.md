@@ -49,7 +49,7 @@ This repository contains an end-to-end **puzzle-piece perception** pipeline, spa
 3. **Compile** the optimised models into **`.hef`** for execution on the AI HAT.
 
 **Live inference script (repo root)**
-- [`hailo_live_inference.py`](hailo_live_inference.py) *(update the filename/link if your script name differs)*
+- [`run_pi_main.py`](run_pi_main.py) *(update the filename/link if your script name differs)*
 - Captures frames at **1920×1080**, applies an ROI crop + letterbox resize, runs YOLO detection, then (optionally) classifies the top detections (e.g., only YOLO class `p_1`).
 - Keyboard controls: press **`q`/`Esc`** to quit, **`s`** to save debug frames and classifier inputs (default: `~/Desktop/hailo_debug/`).
 
